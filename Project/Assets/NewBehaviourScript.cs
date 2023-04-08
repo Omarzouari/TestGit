@@ -10,6 +10,7 @@ public class NewBehaviourScript : MonoBehaviour
         //baa3
         integer a;
         
+        //heyy stupid boy
     }
 
     // Update is called once per frame
