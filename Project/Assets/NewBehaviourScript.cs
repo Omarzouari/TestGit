@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
         int a;
         
         //heyy stupid boy
+        // let me add this ya zweri 
     }
 
     // Update is called once per frame
