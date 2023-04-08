@@ -8,7 +8,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         //baa3
-        integer a;
+        int a;
         
         //heyy stupid boy
     }
