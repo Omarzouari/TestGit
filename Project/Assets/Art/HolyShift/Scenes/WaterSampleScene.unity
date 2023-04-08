@@ -175,6 +175,7 @@ Terrain:
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
@@ -195,6 +196,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -269,6 +271,7 @@ Transform:
   m_LocalRotation: {x: 0.000000010204228, y: 0.9723699, z: 0.23344553, w: -0.00000004250364}
   m_LocalPosition: {x: 22.5, y: -133.16, z: 270.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -362,6 +365,7 @@ Transform:
   m_LocalRotation: {x: 0.36843017, y: 0.048643857, z: -0.019308586, w: 0.9281811}
   m_LocalPosition: {x: 0, y: 57.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -389,9 +393,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429300196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.061573, y: -29.549648, z: 1.4756756}
+  m_LocalRotation: {x: -0.0149750095, y: -0.0020343927, z: 0.017981334, w: 0.99972415}
+  m_LocalPosition: {x: 25.728874, y: -26.74012, z: 2.6154952}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 628474970}
   - {fileID: 607257559}
@@ -399,7 +404,7 @@ Transform:
   - {fileID: 1825545192}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.712, y: -0.264, z: 2.065}
 --- !u!1001 &607257558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -636,6 +641,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.97236997, z: 0.2334455, w: 0}
   m_LocalPosition: {x: -79.29, y: 132.5, z: 270.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -777,6 +783,7 @@ Transform:
   m_LocalRotation: {x: 0.20657311, y: -0.77009916, z: 0.30568147, w: 0.52041686}
   m_LocalPosition: {x: 0, y: 57.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -810,6 +817,7 @@ Transform:
   m_LocalRotation: {x: -0.17710404, y: -0.7495947, z: -0.22205286, w: 0.59785825}
   m_LocalPosition: {x: -11.22, y: 27.39, z: 13.03}
   m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 429300197}
   m_RootOrder: 2
@@ -825,6 +833,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -947,6 +956,7 @@ Transform:
   m_LocalRotation: {x: 0.000000010204228, y: 0.9723699, z: 0.23344553, w: -0.00000004250364}
   m_LocalPosition: {x: 22.5, y: -133.16, z: 270.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1091,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0021dc7ae6ca2cb4bb44c107245b122f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5968137
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0021dc7ae6ca2cb4bb44c107245b122f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1156,6 +1166,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.63, y: 29.77, z: 20.11}
   m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 429300197}
   m_RootOrder: 3
@@ -1171,6 +1182,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
